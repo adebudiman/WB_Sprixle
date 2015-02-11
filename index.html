@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sprixle.com</title>
+        <meta name="description" content="A Lifetime of limitless learning">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <!--[if IE 7]>
+          <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+        <![endif]-->
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+        <header>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="./index.html" class="brand"><img src="img/logo.png" width="" height=""/></a>
+                        <nav class="nav-collapse collapse pull-right">
+                            <ul class="nav nav-home">
+                                <li class="active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li class="">
+                                    <a href="#SignIn" role="button" data-toggle="modal">Login</a>
+                                </li>
+                                <li class="lang-dpdown">
+                                    <div id="polyglotLanguageSwitcher">
+                                        <form action="#">
+                                            <select id="polyglot-language-options">
+                                                <option id="en" value="en">English</option>
+                                                <option id="fr" value="fr">Fran&ccedil;ais</option>
+                                                <option id="de" value="de">Deutsch</option>
+                                                <option id="it" value="it">Italiano</option>
+                                                <option id="es" value="es" selected>Espa&ntilde;ol</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <section id="myCarousel" class="carousel slide">
+                <div class="row-fluid">
+                    <div class="container">
+                        <article class="span4 pos-abs">
+                            <h1>A LIFETIME OF <br>LIMITLESS LEARNING</h1>
+                            <p>Sprixle.com is a literacy based social network of thousands of learner and educator <br/>utilizing Web 2.0 technology. Readers red, critically analyze, review,<br> discuss and share books.</p>
+                            <p>Authors <a href="#">sign up</a> and <a href="#">sign in</a> here. <br/>School Representatives <a href="#">sign in</a> here.</p>
+                            <a href="#FindSchool" role="button" data-toggle="modal" class="btn btn-large btn-warning">SIGN UP NOW <i class="icon-angle-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="active item"><img alt="" src="img/bg_slide.png"></div>
+                    <div class="item"><img alt="" src="img/bg_slide.png"></div>
+                    <div class="item"><img alt="" src="img/bg_slide.png"></div>
+                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </section>
+            <section class="row-fluid spotlight-tag">
+                <div class="container">
+                    <div class="span4">
+                        <i class="icon-sun"></i>
+                        <h4>Improve Behavior</h4>
+                        <p>Improve specific student behaviors and engagement by awarding and recording real-time feedback.</p>
+                    </div>
+                    <div class="span4 tag-cstm">
+                        <i class="icon-share-alt"></i>
+                        <h4>Share Data</h4>
+                        <p>Print or email beautiful behavior reports to easily engage parents and staff.</p>
+                    </div>
+                    <div class="span4">
+                        <i class="icon-time"></i>
+                        <h4>Save Time</h4>
+                        <p>Save time by recording behaviors and accomplishments right in class, with just one click!</p>
+                    </div>
+                </div>
+            </section>
+        </header>
+        
+        <section class="bg-gray-section">
+            <div class="container">
+                <h2>Favorite Books</h2>
+                <ul class="thumbnails">
+                    <li class="span3">
+                        <div class="thumbnail">
+                              <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 200px;" src="img/img_book.png">
+                              <div class="caption">
+                                <h4>Thumbnail label</h4>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              </div>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                              <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 200px;" src="img/img_book.png">
+                              <div class="caption">
+                                <h4>Thumbnail label</h4>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              </div>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                              <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 200px;" src="img/img_book.png">
+                              <div class="caption">
+                                <h4>Thumbnail label</h4>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              </div>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                              <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 200px;" src="img/img_book.png">
+                              <div class="caption">
+                                <h4>Thumbnail label</h4>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                              </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container pd">
+            <div class="row">
+                <div class="span7">
+                    <h2>Latest Check Ins <a href="#" class="btn pull-right">See all</a></h2>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Alva</a> started reading Justin Bieber: Just Belive by <a href="#">MollyHodgin, Riley Brooks</a>
+                            <div class="media media-bg-cstm">
+                                <a href="#" class="thumbnail pull-left">
+                                    <img data-src="holder.js/160x120" alt="160x120" style="width: 160px; height: 160px;" src="img/img_sample.png">
+                                  </a>
+                                <div class="media-body">
+                                    <i class="icon-comment"></i> JB is so cute...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Alva</a> started reading Justin Bieber: Just Belive by <a href="#">MollyHodgin, Riley Brooks</a>
+                            <div class="media media-bg-cstm">
+                                <a href="#" class="thumbnail pull-left">
+                                    <img data-src="holder.js/160x120" alt="160x120" style="width: 160px; height: 160px;" src="img/img_sample.png">
+                                  </a>
+                                <div class="media-body">
+                                    <div class="progress progress-striped active">
+                                        <div class="bar" style="width: 40%;">40% (124 of 389 pages)</div>
+                                    </div>
+                                    <i class="icon-comment"></i> This book is about a girl who 's father dies and her mother sews the girl clothes to let out the devastating feelings...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4 offset1 event-tag">
+                    <h2>Events <a href="#" class="btn pull-right">See all</a></h2>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Akira</a> getting ready to discuss on <b>01/25/2013 </b>through <b>03/14/2013</b> We invite you to read with us! Join by clicking <a href="#">here</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Akira</a> getting ready to discuss on <b>01/25/2013 </b>through <b>03/14/2013</b> We invite you to read with us! Join by clicking <a href="#">here</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Akira</a> getting ready to discuss on <b>01/25/2013 </b>through <b>03/14/2013</b> We invite you to read with us! Join by clicking <a href="#">here</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Akira</a> getting ready to discuss on <b>01/25/2013 </b>through <b>03/14/2013</b> We invite you to read with us! Join by clicking <a href="#">here</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="img/img_default_user.png">
+                        </a>
+                        <div class="media-body">
+                            <a href="#">Akira</a> getting ready to discuss on <b>01/25/2013 </b>through <b>03/14/2013</b> We invite you to read with us! Join by clicking <a href="#">here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-section">
+            <div class="container gn-bottom">
+                <h2>Testimonials</h2>
+                <div class="row">
+                    <div class="span4">
+                        <blockquote class="testimonial">
+                            <h4>"One of the best books"</h4>
+                            <p>You don’t need to see his identification. These aren’t the droids you’re looking for.<br><br> You don’t need to see his identification. These aren’t the droids</p>
+                        </blockquote>
+                        <div class="arrow-down"></div>
+                        <p class="testimonial-author"><img src="img/img_default_user_2.png" width="" height=""/></>Obi-Wan kenbi | <span>Jedi Master</span></p>
+                    </div>
+                    <div class="span4">
+                        <blockquote class="testimonial">
+                            <h4>"One of the best books"</h4>
+                            <p>You don’t need to see his identification. These aren’t the droids you’re looking for.<br><br> You don’t need to see his identification. These aren’t the droids</p>
+                        </blockquote>
+                        <div class="arrow-down"></div>
+                        <p class="testimonial-author"><img src="img/img_default_user_2.png" width="" height=""/></>Obi-Wan kenbi | <span>Jedi Master</span></p>
+                    </div>
+                    <div class="span4">
+                        <blockquote class="testimonial">
+                            <h4>"One of the best books"</h4>
+                            <p>You don’t need to see his identification. These aren’t the droids you’re looking for.<br><br> You don’t need to see his identification. These aren’t the droids</p>
+                        </blockquote>
+                        <div class="arrow-down"></div>
+                        <p class="testimonial-author"><img src="img/img_default_user_2.png" width="" height=""/></>Obi-Wan kenbi | <span>Jedi Master</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Partners</h2>
+                <div class="row-fluid">
+                    <ul class="partners">
+                        <li><img src="img/partners/01.png" width="" height=""/></li>
+                        <li><img src="img/partners/02.png" width="" height=""/></li>
+                        <li><img src="img/partners/03.png" width="" height=""/></li>
+                        <li><img src="img/partners/04.png" width="" height=""/></li>
+                        <li><img src="img/partners/05.png" width="" height=""/></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span2">
+                        <h4>Sprixle.com</h4>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">News</a>
+                        <a href="#">Sign in</a>
+                        <a href="#">Sign up</a>
+                    </div>
+                    <div class="span3">
+                        <h4>Contact Us</h4>
+                        <p><i class="icon-map-marker"></i> 9900 Colin Ave NY, NY34282, USA</p>
+                        <p><i class="icon-phone"></i> <b>Phone. </b>(022) 220 220 2222</p>
+                        <p><i class="icon-phone"></i> <b>Fax. </b>(022) 220 220 2222</p>
+                    </div>
+                    <div class="span4">
+                        <h4>Recent Activities</h4>
+                        <a href="#">You don’t need to see his identification</a>
+                        <a href="#">These aren’t the droids</a>
+                        <a href="#">See his identification</a>
+                        <a href="#">These aren’t the droids you’re looking for.</a>
+                    </div>
+                    <div class="span3">
+                        <h4>Find Us</h4>
+                        <a href="#"><i class="icon-twitter"></i> @Sprixle</a>
+                        <a href="#"><i class="icon-facebook"></i> Sprixle</a>
+                        <a href="#"><i class="icon-linkedin"></i> Sprixle</a>
+                        <a href="#"><i class="icon-youtube"></i> Sprixle on Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <section class="btm-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="span5">
+                            <p>Sprixle, LLC &copy; 2013 all right reserved.</p>
+                        </div>
+                        <div class="span5 pull-right">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">New</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        
+        <!-- Modal Sign In-->
+        <div id="SignIn" class="modal hide fade">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Sign In</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                  <fieldset>
+                    <legend>Please fill the form below.</legend>
+                    <label>Username</label>
+                    <input type="text" placeholder="" class="wdfull">
+                    <label>Password</label>
+                    <input type="password" placeholder="" class="wdfull">
+                    <div class="row">
+                        <div class="span2">
+                            <label class="checkbox">
+                                <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+                        <label class="pull-right tright">
+                            <p><a href="#">Sign Up?</a></p>
+                            <p><a href="#">Forgot your password?</a></p>
+                            <p><a href="#">Didn't receive confirmation instructions?</a></p>
+                        </label>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger pull-left">Sign In</button>
+            </div>
+        </div>
+        <!-- Modal -->
+        
+        <!-- Modal Sign Up-->
+        <div id="FindSchool" class="modal hide fade">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Find your school</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <fieldset>
+                        <legend>
+                            <h5>Find your school by scrolling below or enter the search criteria. </h5>
+                        </legend>
+                        
+                          
+                        <label>States</label>
+                        <select class="wdfull">
+                            <option>All States</option>
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Arizona</option>
+                            <option>etc</option>
+                        </select>
+                          
+                        <label>District</label>
+                        <input type="text" placeholder="" class="wdfull">
+                          
+                        <label>School Name</label>
+                        <input type="text" placeholder="" class="wdfull">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#listSchool" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal" class="btn btn-danger pull-left">Search</a>
+            </div>
+        </div>
+        
+        <div id="listSchool" class="modal hide fade">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Find your school</h3>
+            </div>
+            <div class="modal-body list-wrapper">
+                <form>
+                    <fieldset>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Coldspring Oakhurst</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Coldspring intermediate</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;District Office</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Early Childhood Learning Center</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Highlands</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Inter-City</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;La Marque High School</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;LaMarque Central Office</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;La Marque</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                        <legend>
+                            <a href="#Registration" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal"><h5><i class="icon-building"></i> &nbsp;Juan Seguin</h5></a>
+                            <h6>Coldspring Oakhurst Cisd School District </h6>
+                            <h6>Coldspring, Texas </h6>
+                        </legend>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        <div id="Registration" class="modal hide fade">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Registration</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Lincoln Junior High <br/>
+                            <small>Coldspring-Oakhurst CISD School District</small><br>
+                            <small>Coldspring, Texas</small>
+                        </legend>
+                        
+                        <legend class="unbrd tc">
+                            <div class="row">
+                                <a href="#SignUp" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal">
+                                    <div class="span2 tc">
+                                        <img src="img/img_student.png" class="img-circle">
+                                        <h5>Are you a Student ?</h5>
+                                    </div>
+                                </a>
+                                <a href="#SignUp" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal">
+                                    <div class="span2 tc">
+                                        <img src="img/img_teacher.png" class="img-circle">
+                                        <h5>Are you a Student ?</h5>
+                                    </div>
+                                </a>
+                                <a href="#SignUp" data-dismiss="modal" aria-hidden="true" role="button" data-toggle="modal">
+                                    <div class="span2 tc">
+                                        <img src="img/img_parents.png" class="img-circle">
+                                        <h5>Are you a Student ?</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </legend>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        
+        <div id="SignUp" class="modal hide fade">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Lincoln Junior High <br/>
+                            <small>Coldspring-Oakhurst CISD School District</small><br>
+                            <small>Coldspring, Texas</small>
+                        </legend>
+                        
+                          
+                        <label>Education Level</label>
+                        <select class="wdfull">
+                            <option>Grade School (PK-12)</option>
+                            <option>Grade School (PK-13)</option>
+                            <option>Grade School (PK-14)</option>
+                            <option>Grade School (PK-15)</option>
+                        </select>
+                          
+                        <label>First Name</label>
+                        <input type="text" placeholder="" class="wdfull">
+                          
+                        <label>Last Name</label>
+                        <input type="text" placeholder="" class="wdfull">
+                          
+                        <label>Username <small>(case sensitive)</small></label>
+                        <input type="text" placeholder="" class="wdfull">
+                        
+                        <label>Email</label>
+                        <input type="text" placeholder="" class="wdfull">  
+                        
+                        <label>Phone</label>
+                        <input type="text" placeholder="" class="wdfull">  
+                        
+                        <label>Password <small>(must be more than 6 characters & case sensitive)</small></label>
+                        <input type="password" placeholder="" class="wdfull">  
+                          
+                        <label>Confirm Password </label>
+                        <input type="password" placeholder="" class="wdfull">  
+                    </fieldset>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger pull-left">Sign Up</button>
+            </div>
+        </div>
+        <!-- Modal -->
+        
+        <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
+        <script src="js/jquery.polyglot.language.switcher.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#polyglotLanguageSwitcher').polyglotLanguageSwitcher({
+                    effect: 'fade',
+                    testMode: true,
+                    onChange: function(evt){
+                        alert("The selected language is: "+evt.selectedItem);
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
